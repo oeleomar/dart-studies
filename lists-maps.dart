@@ -40,5 +40,5 @@ void main() {
   int tamanho = usuario.length;
 
   // Definindo o tipo do mapa
-  Map<int, String> usuario = {1: "Eleomar", 2: "João", 3: "Cuiabá"};
+  Map<int, String> names = {1: "Eleomar", 2: "João", 3: "Cuiabá"};
 }
