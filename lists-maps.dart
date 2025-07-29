@@ -1,11 +1,13 @@
-void main () {
+// ignore_for_file: unused_local_variable
+
+void main() {
   //Sem definir o tipo, pode ter vários tipos de dados
   List cores = ["Vermelho", "Verde", "Azul"];
   print("Cores: $cores");
 
   //Definindo o tipo da lista como String
   List<String> frutas = ["Maçã", "Banana", "Laranja"];
-  
+
   // Adicionando elementos à lista
   frutas.add("Uva");
   // Adicionando em um indice específico
@@ -20,7 +22,6 @@ void main () {
   int tamanhoFrutas = frutas.length;
 
   print("Frutas: $frutas");
-
 
   //Mapas (Dicionários)
   Map usuario = {"nome": "Eleomar", "idade": 25, "cidade": "Cuiabá"};
@@ -37,8 +38,7 @@ void main () {
   usuario.remove('cidade');
   // Tamanhando o mapa
   int tamanho = usuario.length;
-  
+
   // Definindo o tipo do mapa
   Map<int, String> usuario = {1: "Eleomar", 2: "João", 3: "Cuiabá"};
-
 }
