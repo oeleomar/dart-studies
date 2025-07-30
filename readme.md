@@ -52,6 +52,14 @@ Demonstra conceitos avançados de OOP:
 - Métodos abstratos e implementação com `@override`
 - Construtores com `super`
 
+### 🏛️ [POO.md](POO.md)
+Guia completo sobre os 4 Pilares da Programação Orientada a Objetos:
+- **Encapsulamento**: Proteção e controle de acesso aos dados
+- **Herança**: Reutilização de código e hierarquia de classes
+- **Polimorfismo**: Flexibilidade e interfaces uniformes
+- **Abstração**: Contratos claros e implementações específicas
+- Exemplos práticos detalhados de cada pilar
+
 ## 🚀 Como Executar
 
 Para executar qualquer um dos arquivos, utilize o comando:
