@@ -1,5 +1,9 @@
-import 'package:calculator/calculator.dart' as calculator;
+import 'package:calculator/calculator.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${calculator.calculate()}!');
+  CliService cliService = CliService();
+
+  while (cliService.isRunning) {
+    cliService.start();
+  }
 }
